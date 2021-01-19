@@ -8,11 +8,7 @@
 body{
     font-family:  'Raleway', sans-serif;
     overflow-y: scroll;
-}
-
-@font-face{
-    font-family: Quantum;
-    src: url('/assets/font/Quantum.otf');
+	min-height:100%;
 }
 
 .container{
@@ -57,7 +53,7 @@ footer{
 /*header*/
 
 header{
-    background-color: #D43F52;
+    background-color: black;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFF;
@@ -71,7 +67,7 @@ header .container{
 
 .logo{
     font-size: 32px;
-    color: #000;
+    color: white;
     font-weight: normal;
     margin-top: -8px;
     font-family: 'Quantum', 'Raleway', sans-serif;
@@ -144,12 +140,14 @@ header .container{
     background-size: cover;
     padding: 0;
     text-align: center;
+	min-height:100%;
+	
 }
 
 #banner div{
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,7 +157,7 @@ header .container{
 }
 
 #banner h1{
-    color: #D43F52;
+    color: white;
     font-size: 60px;
     animation-delay: 0.4s;
     line-height: 55px;
@@ -203,7 +201,7 @@ header .container{
 
 #about h3,
 #about strong{
-    color: #D43F52;
+    color: lime;
 }
 
 #about p{
@@ -223,19 +221,19 @@ header .container{
     margin-top: 30px;
     text-decoration: none;
     font-weight: bold;
-    color: #D43F52;
+    color: lime;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-size: 19px;
     padding: 15px 30px;
-    border: 2px solid #D43F52;
+    border: 2px solid lime;
     transition: 0.2s;
     max-height: 100vh;
     text-align: center;
 }
 
 #about a:hover{
-    background-color: #D43F52;
+    background-color: lime;
     color: #FFF;
 }
 
@@ -267,7 +265,9 @@ header .container{
 }
 
 #services .container{
-    display: grid;
+    /* display: grid; */
+	text-align: center;
+	    color: white;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 72px;
     justify-content: space-between;
@@ -289,7 +289,7 @@ header .container{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #D43F52;
+    background-color: #353333;
 }
 
 .iconHolder img{
@@ -343,7 +343,7 @@ header .container{
 }
 
 #skills .container{
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     grid-gap: 20px;
@@ -471,7 +471,8 @@ header .container{
 /*contact section*/
 
 #contact{
-    background-color: #1a1a1a;
+	  background-color: #000;
+    /* background-color: #1a1a1a; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -526,7 +527,7 @@ footer{
 }
 
 footer a{
-    color: #D43F52;
+    color: #353333;
 }
 
 .copyright{
@@ -551,7 +552,7 @@ footer a{
         position: absolute;
         top: 80px;
         left: 0;
-        background-color: #D43F52;
+        background-color: #353333;
         padding: 0 15px;
     }
 
