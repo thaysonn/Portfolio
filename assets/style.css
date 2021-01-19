@@ -134,7 +134,7 @@ header .container{
     height: calc(100vh - 84px);
     max-width: 100vw;
     max-width: 100vw;
-    background-image: url(./main.jpg);
+    background-image: url(main.jpg);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
