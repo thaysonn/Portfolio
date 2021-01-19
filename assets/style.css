@@ -8,7 +8,11 @@
 body{
     font-family:  'Raleway', sans-serif;
     overflow-y: scroll;
-	min-height:100%;
+}
+
+@font-face{
+    font-family: Quantum;
+    src: url('/assets/font/Quantum.otf');
 }
 
 .container{
@@ -53,7 +57,7 @@ footer{
 /*header*/
 
 header{
-    background-color: black;
+    background-color: #D43F52;
     text-transform: uppercase;
     font-weight: bold;
     color: #FFF;
@@ -67,7 +71,7 @@ header .container{
 
 .logo{
     font-size: 32px;
-    color: white;
+    color: #000;
     font-weight: normal;
     margin-top: -8px;
     font-family: 'Quantum', 'Raleway', sans-serif;
@@ -131,19 +135,21 @@ header .container{
 /*banner section*/
 
 #banner {
-    
-    background-image: url('main.jpg');
+    height: calc(100vh - 84px);
+    max-width: 100vw;
+    max-width: 100vw;
+    background-image: url(main.jpg);
     background-position-x: center;
     background-position-y: center;
-   
+    background-size: cover;
     padding: 0;
-    text-align: center; 
-	
+    text-align: center;
 }
 
 #banner div{
     height: 100%;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,7 +159,7 @@ header .container{
 }
 
 #banner h1{
-    color: white;
+    color: #D43F52;
     font-size: 60px;
     animation-delay: 0.4s;
     line-height: 55px;
@@ -175,9 +181,9 @@ header .container{
     padding: 15px 5px;
 }
 
-/* #banner img{ */
-    /* height: 30px; */
-/* } */
+#banner img{
+    height: 30px;
+}
 
 #banner .github{
     filter: invert(97%) sepia(97%) saturate(0%) hue-rotate(4deg) brightness(103%) contrast(103%);
@@ -197,7 +203,7 @@ header .container{
 
 #about h3,
 #about strong{
-    color: lime;
+    color: #D43F52;
 }
 
 #about p{
@@ -217,19 +223,19 @@ header .container{
     margin-top: 30px;
     text-decoration: none;
     font-weight: bold;
-    color: lime;
+    color: #D43F52;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-size: 19px;
     padding: 15px 30px;
-    border: 2px solid lime;
+    border: 2px solid #D43F52;
     transition: 0.2s;
     max-height: 100vh;
     text-align: center;
 }
 
 #about a:hover{
-    background-color: lime;
+    background-color: #D43F52;
     color: #FFF;
 }
 
@@ -261,9 +267,7 @@ header .container{
 }
 
 #services .container{
-    /* display: grid; */
-	text-align: center;
-	    color: white;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 72px;
     justify-content: space-between;
@@ -285,7 +289,7 @@ header .container{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #353333;
+    background-color: #D43F52;
 }
 
 .iconHolder img{
@@ -339,7 +343,7 @@ header .container{
 }
 
 #skills .container{
-    /* display: grid; */
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     grid-gap: 20px;
@@ -467,8 +471,7 @@ header .container{
 /*contact section*/
 
 #contact{
-	  background-color: #000;
-    /* background-color: #1a1a1a; */
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -523,7 +526,7 @@ footer{
 }
 
 footer a{
-    color: #353333;
+    color: #D43F52;
 }
 
 .copyright{
@@ -548,7 +551,7 @@ footer a{
         position: absolute;
         top: 80px;
         left: 0;
-        background-color: #353333;
+        background-color: #D43F52;
         padding: 0 15px;
     }
 
