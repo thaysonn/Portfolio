@@ -135,7 +135,7 @@ header .container{
     background-image: url('main.jpg');
     background-position-x: center;
     background-position-y: center;
-    background-size: cover;
+   
     padding: 0;
     text-align: center; 
 	
@@ -175,9 +175,9 @@ header .container{
     padding: 15px 5px;
 }
 
-#banner img{
-    height: 30px;
-}
+/* #banner img{ */
+    /* height: 30px; */
+/* } */
 
 #banner .github{
     filter: invert(97%) sepia(97%) saturate(0%) hue-rotate(4deg) brightness(103%) contrast(103%);
