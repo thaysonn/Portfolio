@@ -8,11 +8,7 @@
 body{
     font-family:  'Raleway', sans-serif;
     overflow-y: scroll;
-}
-
-@font-face{
-    font-family: Quantum;
-    src: url('/assets/font/Quantum.otf');
+	min-height:100%;
 }
 
 .container{
@@ -71,7 +67,7 @@ header .container{
 
 .logo{
     font-size: 32px;
-    color: #000;
+    color: white;
     font-weight: normal;
     margin-top: -8px;
     font-family: 'Quantum', 'Raleway', sans-serif;
@@ -144,6 +140,7 @@ header .container{
     background-size: cover;
     padding: 0;
     text-align: center;
+	min-height:100%;
 }
 
 #banner div{
@@ -291,7 +288,7 @@ header .container{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #D43F52;
+    background-color: #353333;
 }
 
 .iconHolder img{
@@ -529,7 +526,7 @@ footer{
 }
 
 footer a{
-    color: #D43F52;
+    color: #353333;
 }
 
 .copyright{
@@ -554,7 +551,7 @@ footer a{
         position: absolute;
         top: 80px;
         left: 0;
-        background-color: #D43F52;
+        background-color: #353333;
         padding: 0 15px;
     }
 
