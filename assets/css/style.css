@@ -417,7 +417,7 @@ header .container {
 .timeline-marker {
     position: absolute;
     left: -40px;
-    top: 6px;
+    top: 0px;
     width: 18px;
     height: 18px;
     border-radius: 50%;
